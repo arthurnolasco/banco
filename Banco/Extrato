@@ -1,0 +1,23 @@
+class Extrato:
+    def __init__(self):
+        self.transacoes = []  # Lista para armazenar as transações
+
+    def informar_extrato(self):
+        for transacao in self.transacoes:
+            if transacao < 0:
+                print(f"TRANSFERÊNCIA: -R${-transacao:.2f}")
+            else:
+                print(f"DEPÓSITO: R${transacao:.2f}")
+
+    def adicionar_transacao(self, valor):
+        self.transacoes.append(valor)
+
+    def exportar_extrato_digital(self, cc):
+        nome_arquivo = f"./extrato_{cc}.txt"
+        with open(nome_arquivo, "w") as saida:
+            for transacao in self.transacoes:
+                if transacao < 0:
+                    saida.write(f"TRANSFERÊNCIA: -R${-transacao:.2f}\n")
+                else:
+                    saida.write(f"DEPÓSITO: R${transacao:.2f}\n")
+        print(f"Extrato exportado para {nome_arquivo}")

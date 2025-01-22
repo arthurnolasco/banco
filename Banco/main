@@ -1,0 +1,22 @@
+from saldo import SistemaBancario
+
+def main():
+    sistema = SistemaBancario()
+
+    # Adicionar um usuário administrador (se necessário)
+    admin = {
+        "nome": "Administrador",
+        "cpf": "00000000000",
+        "senha": "admin",
+        "numero_conta": "0001",
+        "saldo": 0.0,
+        "extrato": []
+    }
+    sistema.usuarios.append(admin)
+
+    # Executar o sistema bancário
+    sistema.executar_aplicativo()
+
+if __name__ == "__main__":
+    main()
+

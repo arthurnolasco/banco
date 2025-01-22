@@ -1,0 +1,18 @@
+class Saldo:
+    def __init__(self):
+        self._saldo = 0.0
+
+    def get_saldo(self):
+        """Retorna o saldo atual."""
+        return self._saldo
+
+    def adicionar_saldo(self, valor):
+        """Adiciona um valor ao saldo."""
+        self._saldo += valor
+
+# Exemplo de uso:
+if __name__ == "__main__":
+    minha_conta = Saldo()
+    print(f"Saldo inicial: {minha_conta.get_saldo()}")
+    minha_conta.adicionar_saldo(100.0)
+    print(f"Saldo após adicionar 100.0: {minha_conta.get_saldo()}")

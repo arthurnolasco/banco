@@ -1,0 +1,15 @@
+class Transferencia:
+    def __init__(self, remetente, destinatario):
+        self.remetente = remetente
+        self.destinatario = destinatario
+
+    def realizar_transferencia(self, valor):
+        valor = abs(valor)
+        saldo_remetente = self.remetente.saldo.atual
+
+        if saldo_remetente >= valor:
+            self.remetente.saldo.atual -= valor
+            self.destinatario.saldo.atual += valor
+            print(f"Transferência de R$ {valor:.2f} realizada com sucesso.")
+        else:
+            print("Saldo insuficiente para realizar a transferência.")

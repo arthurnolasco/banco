@@ -1,0 +1,240 @@
+[
+    {
+        "tipo": "Servidor",
+        "nome": "UFMG",
+        "cpf": "12345678910",
+        "data_nascimento": "01/01/2001",
+        "endereco": "Av UFMG",
+        "senha": "#Ufmg123",
+        "numero_conta_corrente": "511431",
+        "numero_matricula": null,
+        "saldo": 1e+24,
+        "saldo_carteirinha": 187.0,
+        "extrato": [
+            {
+                "data": "05/01/2025 00:00:00",
+                "descricao": "Transferência enviada para Arthur Loureiro Nolasco",
+                "valor": -700.0
+            },
+            {
+                "data": "05/01/2025 00:00:00",
+                "descricao": "Transferência enviada para João Silva",
+                "valor": -100000.0
+            },
+            {
+                "data": "12/01/2025 16:36:58",
+                "descricao": "Débito",
+                "valor": -150.0
+            },
+            {
+                "data": "12/01/2025 16:36:58",
+                "descricao": "Transferência enviada",
+                "valor": -150.0
+            },
+            {
+                "data": "12/01/2025 17:08:20",
+                "descricao": "Débito",
+                "valor": -200.0
+            }
+        ],
+        "salario": 100000.0
+    },
+    {
+        "tipo": "Aluno",
+        "nome": "Arthur Loureiro Nolasco",
+        "cpf": "18787910799",
+        "data_nascimento": "19/08/2002",
+        "endereco": "Av Beira Mar",
+        "senha": "#Arthur1908",
+        "numero_conta_corrente": "867739",
+        "numero_matricula": "2023421645",
+        "saldo": 1620.0,
+        "saldo_carteirinha": 30.0,
+        "extrato": [
+            {
+                "data": "11/01/2025 23:22:48",
+                "descricao": "Crédito",
+                "valor": 10.0
+            },
+            {
+                "data": "11/01/2025 23:23:03",
+                "descricao": "Débito",
+                "valor": -10.0
+            },
+            {
+                "data": "11/01/2025 23:23:03",
+                "descricao": "Transferência enviada",
+                "valor": -10.0
+            },
+            {
+                "data": "11/01/2025 23:23:07",
+                "descricao": "Crédito",
+                "valor": 100.0
+            },
+            {
+                "data": "11/01/2025 23:23:11",
+                "descricao": "Débito",
+                "valor": -20.0
+            },
+            {
+                "data": "05/01/2025 00:00:00",
+                "descricao": "Transferência recebida de UFMG",
+                "valor": 700.0
+            },
+            {
+                "data": "12/01/2025 00:08:14",
+                "descricao": "Crédito",
+                "valor": 50.0
+            },
+            {
+                "data": "12/01/2025 00:11:34",
+                "descricao": "Débito",
+                "valor": -100.0
+            },
+            {
+                "data": "12/01/2025 00:11:34",
+                "descricao": "Transferência enviada",
+                "valor": -100.0
+            },
+            {
+                "data": "12/01/2025 16:36:58",
+                "descricao": "Crédito",
+                "valor": 150.0
+            },
+            {
+                "data": "12/01/2025 16:36:58",
+                "descricao": "Transferência recebida",
+                "valor": 150.0
+            },
+            {
+                "data": "12/01/2025 18:14:16",
+                "descricao": "Débito",
+                "valor": -500.0
+            },
+            {
+                "data": "12/01/2025 18:14:16",
+                "descricao": "Transferência enviada",
+                "valor": -500.0
+            }
+        ],
+        "fumpista": true,
+        "nivel_fump": "I"
+    },
+    {
+        "tipo": "Servidor",
+        "nome": "João Silva",
+        "cpf": "09328370303",
+        "data_nascimento": "01/01/2001",
+        "endereco": "Rua Marcos de Oliveira",
+        "senha": "#Joao123",
+        "numero_conta_corrente": "663758",
+        "numero_matricula": null,
+        "saldo": 100100.0,
+        "saldo_carteirinha": 0.0,
+        "extrato": [
+            {
+                "data": "11/01/2025 23:23:03",
+                "descricao": "Crédito",
+                "valor": 10.0
+            },
+            {
+                "data": "11/01/2025 23:23:03",
+                "descricao": "Transferência recebida",
+                "valor": 10.0
+            },
+            {
+                "data": "05/01/2025 00:00:00",
+                "descricao": "Transferência recebida de UFMG",
+                "valor": 100000.0
+            }
+        ],
+        "salario": 0.0
+    },
+    {
+        "tipo": "Aluno",
+        "nome": "Clara Affonseca",
+        "cpf": "09707990799",
+        "data_nascimento": "22/02/2002",
+        "endereco": "Rua da Silva",
+        "senha": "#Clara123",
+        "numero_conta_corrente": "369618",
+        "numero_matricula": "2025721743",
+        "saldo": 100.0,
+        "saldo_carteirinha": 0.0,
+        "extrato": [
+            {
+                "data": "12/01/2025 00:11:34",
+                "descricao": "Crédito",
+                "valor": 100.0
+            },
+            {
+                "data": "12/01/2025 00:11:34",
+                "descricao": "Transferência recebida",
+                "valor": 100.0
+            }
+        ],
+        "fumpista": false,
+        "nivel_fump": null
+    },
+    {
+        "tipo": "Aluno",
+        "nome": "Japa",
+        "cpf": "0355544886",
+        "data_nascimento": "07/07/2007",
+        "endereco": "Av Caetano",
+        "senha": "#Japa123",
+        "numero_conta_corrente": 810685,
+        "numero_matricula": "2024443778",
+        "saldo": 5500.0,
+        "saldo_carteirinha": 0.0,
+        "extrato": [
+            {
+                "data": "12/01/2025 17:57:30",
+                "descricao": "Crédito",
+                "valor": 5000.0
+            },
+            {
+                "data": "12/01/2025 17:57:51",
+                "descricao": "Crédito",
+                "valor": 500.0
+            },
+            {
+                "data": "12/01/2025 17:57:51",
+                "descricao": "Empréstimo recebido",
+                "valor": 500.0
+            }
+        ],
+        "fumpista": false,
+        "nivel_fump": "None"
+    },
+    {
+        "tipo": "Servidor",
+        "nome": "Yasmin",
+        "cpf": "98765432110",
+        "data_nascimento": "09/09/2006",
+        "endereco": "Rua das Tangerinas",
+        "senha": "#Yasmin123",
+        "numero_conta_corrente": 546438,
+        "numero_matricula": null,
+        "saldo": 250.0,
+        "saldo_carteirinha": 237.0,
+        "extrato": [
+            {
+                "data": "12/01/2025 18:14:16",
+                "descricao": "Crédito",
+                "valor": 500.0
+            },
+            {
+                "data": "12/01/2025 18:14:16",
+                "descricao": "Transferência recebida",
+                "valor": 500.0
+            },
+            {
+                "data": "12/01/2025 18:14:52",
+                "descricao": "Débito",
+                "valor": -250.0
+            }
+        ],
+        "salario": 15000.0
+    }
+]
